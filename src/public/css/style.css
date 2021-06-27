@@ -56,6 +56,7 @@ header .logo {
 header p {
   margin: 10px 0px 10px 0px;
   text-align: center;
+  font-size: var(--parrafos);
 }
 
 .top-list{
@@ -72,5 +73,87 @@ header p {
     width: 15px;
 }
 
-/*i class="fas fa-truck"></i>\
-<i class="fas fa-truck"></i>*/
+/*Banner*/
+
+.banner{
+display: none;
+}
+
+/* Main*/
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*TITULOS*/
+
+.titulo{
+    font-size: var(--titulos);
+    text-align: center;
+}
+
+/*Card*/
+.card{
+    box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.img-producto{
+    width: 100%;
+}
+
+.card-content {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.icono-camion{
+    color: var(--Verde);
+}
+
+.precio{
+    font-size: var(--precios);
+}
+
+.descuentos {
+    font-size: var(--descuentos-descripciones);
+}
+
+.descripcion{
+    font-size: var(--descuentos-descripciones);
+}
+
+
+/*FOOTER*/
+
+footer{
+    box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding-top: 60px;
+}
+
+.caja-footer{
+    text-align: center;
+    margin: 0px 42px 10px 42px;
+}
+
+.icono-footer{
+    color: var(--Celeste);
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+footer .caja-footer h4{
+    font-size: var(--precios);
+}
+
+footer .caja-footer p {
+    font-size: var(--parrafos);
+    margin-bottom: 30px;
+}
+
+.p-footer {
+    font-size: var(--parrafos);
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
