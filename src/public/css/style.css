@@ -1,0 +1,76 @@
+:root {
+  /* Paleta de colores */
+  --Amarillo: #eac926;
+  --Azul: #03264c;
+  --Celeste: #1259c3;
+  --Gris-oscuro: #666;
+  --Gris-claro: #ebebeb;
+  --Verde: #39b54a;
+  /*Fuente*/
+  --font-roboto: "Roboto", sans-serif;
+  /* Tamaños de fuentes */
+  --parrafos: 12px;
+  --titulos: 24px;
+  --precios: 18px;
+  --descuentos-descripciones: 16px;
+}
+
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: var(--font-roboto);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
+/*HEADER*/
+
+header {
+  background-color: var(--Amarillo);
+  font-size: var(--parrafos);
+  padding-bottom: 10px;
+}
+
+header .logo {
+  width: 130px;
+  margin: 0px 0px 10px 25px;
+  padding-top: 25px;
+}
+
+header p {
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.top-list{
+    margin-bottom: 10px;
+}
+
+.burger-menu{
+    background-color: var(--Celeste);
+    color: white;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 7px;
+    text-align: center;
+    width: 15px;
+}
+
+/*i class="fas fa-truck"></i>\
+<i class="fas fa-truck"></i>*/
